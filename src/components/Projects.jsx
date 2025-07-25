@@ -12,7 +12,7 @@ const projects = [
             "• Filter tasks by status and priority levels",
             "• Export task reports in multiple formats"
         ],
-        image: "/projects/TaskTrack.png",
+        image: `${import.meta.env.BASE_URL}projects/TaskTrack.png`,
         liveUrl: "#",
         githubUrl: "#",
         tags: ["HTML", "CSS", "JavaScript", "MySQL", "PHP"],
@@ -29,7 +29,7 @@ const projects = [
             "• Admin dashboard for managing applications",
             "• Automated email notifications"
         ],
-        image: "/projects/Enrollment.png",
+        image: `${import.meta.env.BASE_URL}projects/Enrollment.png`,
         liveUrl: "#",
         githubUrl: "#",
         tags: ["PHP", "CSS", "MySQL", "Bootstrap"],
@@ -47,7 +47,7 @@ const projects = [
             "• Bookmark episodes and resume playback",
             "• Community reviews and ratings system"
         ],
-        image: "/projects/AniTube.png",
+        image: `${import.meta.env.BASE_URL}projects/AniTube.png`,
         liveUrl: "#",
         githubUrl: "#",
         tags: ["Flutter", "Firebase", "Dart", "Go", "REST API"],
